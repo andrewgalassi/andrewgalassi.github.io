@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_Store
+Gemfile.lock
+RM_*.html
+pdf/deprecated/*
+backup/
+.jekyll-cache

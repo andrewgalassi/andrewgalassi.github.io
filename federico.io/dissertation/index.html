@@ -1,0 +1,84 @@
+---
+title: Dissertation
+date:   2017-12-27 15:08:10 -0800
+---
+
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+  <body>
+  	<div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                        <h1> On the Interaction between Autonomous Mobility-on-Demand Systems and the Built Environment:<br> Models and Large Scale Coordination Algorithms </h1>
+                        <p>A dissertation submitted to the Department of Aeronautics and Astronautics and the Committee on Graduate Studies of Stanford University in partial fulfillment of the requirements for the degree of Doctor of Philosophy</p>
+                        <p> Federico Rossi</p>
+                        <p> March 2018</p>
+                        <hr/>
+                </div>  
+
+<!-- <div class="col-md-12 text-left">
+              <h3>  </h3>
+            </div>
+ -->            
+            <div class="col-md-12"> 
+              <!-- <img src="{{ site.url }}{{ site.baseurl }}/img/Rossi_defense.png" alt="Defense cover slide" style="max-width: 100%; width: 400px; float: right; margin: 10px; border: 1px solid black"> -->
+
+              <p><a href="{{ site.url }}{{ site.baseurl }}/pdf/Rossi.PhD.pdf" target="_blank"><b>Download</b> the thesis [PDF]</a></p>
+              <p><a href="{{ site.url }}{{ site.baseurl }}/dissertation/Rossi.Defense/Rossi.Defense.pdf" target="_blank">Presentation slides [PDF]</a></p>
+              <!-- <p><a href="https://youtu.be/mZMR_-z240E?t=16m53s" target="_blank">Defense Video</a></p> -->
+              <hr/>
+              <!-- <p> <b>Defense Video</b> </p> -->
+              <div class="video-container">
+                <iframe class="video" src="https://www.youtube-nocookie.com/embed/mZMR_-z240E?start=1013" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <hr/>
+            </div>
+<!--             <div class="col-sm-6">
+              <img class="img-responsive" src="{{ site.url }}{{ site.baseurl }}/img/Rossi_defense.png" alt="Defense cover slide" style="max-width: 400px; align: 'right'">
+              
+            </div> -->
+
+            <div class="col-md-12"> 
+              <div style="font-size: 14px">
+              <p><b>Abstract:</b> Autonomous Mobility-on-Demand systems (that is, fleets of self-driving cars offering on-demand transportation) hold promise to reshape urban transportation by offering high quality of service at lower cost compared to private vehicles. However, the impact of such systems on the infrastructure of our cities (and in particular on traffic congestion and the electric power network) is an active area of research. In particular, Autonomous Mobility-on-Demand (AMoD) systems could greatly increase traffic congestion due to additional "rebalancing" trips required to re-align the distribution of available vehicles with customer demand; furthermore, charging of large fleets of electric vehicles can induce significantly stress in the electric power network, leading to high electricity prices and potential network instability.</p>
+              <p> In this thesis, we build analytical tools and algorithms to model and control the interaction between AMoD systems and our cities. We open our work by exploring the interaction between AMoD systems and urban congestion. Leveraging the theory of network flows, we devise models for AMoD systems that capture endogenous traffic congestion and are amenable to efficient optimization. These models allow us to show the key theoretical result that, under mild assumptions that are substantially verified for U.S. cities, AMoD systems do not increase congestion compared to privately-owned vehicles for a given level of customer demand if empty-traveling vehicles are properly routed. We leverage this insight to design a real-time congestion-aware routing algorithm for empty vehicles; microscopic agent-based simulations with New York City taxi data show that the algorithm significantly reduces congestion compared to a state-of-the-art congestion-agnostic rebalancing algorithm, resulting in 22% lower wait times for AMoD customers. We then devise a randomized congestion-aware routing algorithm for customer-carrying vehicles and prove rigorous analytical bounds on its performance. Preliminary results based on New York City taxi data show that the algorithm could yield a further reduction in congestion and, as a result, 5% lower service times for AMoD customers.</p>
+              <p>We then turn our attention to the interaction between AMoD fleets with electric vehicles and the power network. We extend the network flow model developed in the first part of the thesis to capture the vehicles' state-of-charge and their interaction with the power network (including charging and the ability to inject power in the network in exchange for a payment, denoted as "vehicle-to-grid"). We devise an algorithmic procedure to losslessly reduce the size of the resulting model, making it amenable to efficient optimization, and test our models and optimization algorithms on a hypothetical deployment of an AMoD system in Dallas-Fort Worth, TX with the goal of maximizing social welfare. Simulation results show that coordination between the AMoD system and the power network can reduce electricity prices by over $180M/year, with savings of $120M/year for local power network customers and $35M/year for the AMoD operator. In order to realize such benefits, the transportation operator must cooperate with the power network: we prove that a pricing scheme can be used to enforce the socially optimal solution as a general equilibrium, aligning the interests of a self-interested transportation operator and self-interested power generators with the goal of maximizing social welfare. We then design privacy-preserving algorithms to compute such coordination-promoting prices in a distributed fashion. Finally, we propose a receding-horizon implementation that trades off optimality for speed and demonstrate that it can be deployed in real-time with microscopic simulations in Dallas-Fort Worth.</p>
+              <p>Collectively, these results lay the foundations for congestion-aware and power-aware control of AMoD systems; in particular, the models and algorithms in this thesis provide tools that will enable transportation network operators and urban planners to foster the positive externalities of AMoD and avoid the negative ones, thus fully realizing the benefits of AMoD systems in our cities.</p>
+              </div>
+              <hr/>
+              <tr class="bibtex">
+              <b>BibTeX</b>
+                <pre>
+@phdthesis{Rossi2018,
+  author = {Federico Rossi},
+  title = {On the Interaction between {Autonomous Mobility-on-Demand} Systems and the Built Environment: Models and Large Scale Coordination Algorithms},
+  school = {Stanford University, Dept.\ of Aeronautics and Astronautics},
+  year = {2018},
+  month = mar,
+  address  = {Stanford, California},
+}
+</pre>
+              </tr>
+            </div>
+<!--             <div class="col-md-4">
+              <img class="img-responsive" src="{{ site.url }}{{ site.baseurl }}/AMoD_RSS.svg" alt="Placeholder">
+            </div>
+ -->
+
+
+<!--     <h3> <a href="{{ site.url }}{{ site.baseurl }}/dissertation/Rossi.Defense/">Presentation</a> </h3>    
+    <h3> Dissertation: current version </h3>
+    <a href="{{ site.url }}{{ site.baseurl }}/pdf/Rossi.PhD.pdf">2018.1.7</a>
+    <h3> Previous version </h3>
+    <ul>
+      <a href="{{ site.url }}{{ site.baseurl }}/pdf/Rossi.PhD.20171227.pdf">2017.12.27</a>
+    </ul>
+    <ul>
+    	<a href="{{ site.url }}{{ site.baseurl }}/pdf/Rossi.PhD.20171010.pdf">2017.10.10</a>
+    </ul>
+	</div> -->
+    {% include footer.html %}
+    {% include javascript.html %}
+  </body>
+</html>

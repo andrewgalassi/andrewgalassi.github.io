@@ -1,0 +1,25 @@
+<!-- Research Section -->
+<a class="anchor" id="research"></a>
+    <section class="section-odd">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Research</h1>
+                </div>	
+				{% for post in site.posts %}
+					{% if post.category == "Research" %}
+						<!-- {{ post.title }} -->
+						<div class="col-md-12 text-left">
+							<h3> {{post.title}} </h3>
+						</div>
+						<div class="col-md-4">
+							<img class="img-responsive" src="{{ site.baseurl }}/{{ post.img }}" alt="{{ post.img_alt}}">
+						</div>
+						<div class="col-md-8">
+							{{ post.content }}
+						</div>
+					{% endif %}				
+				{% endfor %}
+            </div>
+        </div>
+    </section>

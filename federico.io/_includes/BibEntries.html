@@ -1,0 +1,35 @@
+<a class="anchor" id="publications"></a>
+<section class="section-even">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Publications <i id="showjabrefsearch" class="fa fa-search-plus" aria-hidden="true"></i></h1>
+        <div id="jrsearchdiv" style="display: none;">
+          <form action="" id="quicksearch">
+          <input type="text" id="qs_field" autocomplete="off" placeholder="Type to search..." /> <input type="button" onclick="clearQS()" value="clear" />
+          <span id="searchstat">Matching entries: <span id="stat">0</span></span>
+          <div id="showsettings" onclick="toggleSettings()">settings...</div>
+          <div id="settings" class="hidden">
+            <ul>
+              <li><input type="checkbox" class="search_setting" id="opt_searchAbs" onchange="updateSetting(this)"><label for="opt_searchAbs"> include abstract</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_searchRev" onchange="updateSetting(this)"><label for="opt_searchRev"> include review</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_searchKey" onchange="updateSetting(this)"><label for="opt_searchRev"> include keywords</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_useRegExp" onchange="updateSetting(this)"><label for="opt_useRegExp"> use RegExp</label></li>
+              <li><input type="checkbox" class="search_setting" id="opt_noAccents" onchange="updateSetting(this)"><label for="opt_noAccents"> ignore accents</label></li>
+            </ul>
+          </div>
+          </form>
+        </div>
+
+      </div>
+      <!-- <br /> -->
+      <div class="col-md-12" id="qs_table">
+      {% bibliography -q @unpublished %}
+      {% bibliography -q @article %}
+      {% bibliography -q @inproceedings %}
+      {% bibliography -q @techreport %}
+      {% bibliography -q @phdthesis @mastersthesis %}
+      </div>
+    </div>
+  </div>
+</section>

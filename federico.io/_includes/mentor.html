@@ -1,0 +1,18 @@
+<!-- Mentorship -->
+<a class="anchor" id="teaching"></a>
+<section class="section-odd">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h1>Teaching and mentorship</h1>
+			</div>
+			{% for post in site.posts %}
+				{% if post.category == "Teaching" %}
+					<div class="col-md-12 text-left">
+						{{ post.content }}
+					</div>
+				{% endif %}				
+			{% endfor %}
+        </div>
+    </div>
+</section>

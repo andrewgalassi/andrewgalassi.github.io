@@ -1,0 +1,17 @@
+<!-- Header -->
+<header>
+    <div class="container">
+		{% for post in site.posts %}
+			{% if post.category == "Bio" %}
+        		<div class="row">
+           		 	<div class="col-md-5">
+                		<img class="img-head" src="{{ site.baseurl }}/{{ post.img }}" alt="{{ post.img_alt}}">
+					</div>	
+					 <div class="col-md-7">
+						 {{ post.content}}
+                	 </div>
+        		 </div>
+			{% endif %}
+		{% endfor %}
+    </div>
+</header>

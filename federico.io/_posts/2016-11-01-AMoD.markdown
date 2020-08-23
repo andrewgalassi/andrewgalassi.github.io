@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Autonomous Mobility on Demand"
+date:   2016-11-01 15:08:10 -0800
+img: img/AMoD_RSS.svg
+img_alt: "A congestion-aware rebalancing algorithm delivers lower customer waiting times and less congestion than a legacy algorithm. From RSS '16"
+category: Research
+---
+
+Self-driving cars can greatly increase safety of our roads and enhance mobility for those unable or unwilling to drive.
+Today, private vehicles spend more than 90% of their lives idle, parked either at home or at work. With self-driving cars, this could change drastically:  shared autonomous vehicles, part of an Autonomous Mobility-on-Demand (AMoD) system, could operate like taxis, driving from a passenger's destination to the next passenger's departure location. Fewer vehicles and, with no need to park, more room for homes and businesses!
+					
+But how should the passengers be assigned to the vehicles? Can we anticipate passenger demand and preemptively rebalance vehicles across a city to decrease waiting times? Can we ensure that self-driving vehicles won't increase traffic congestion? If the vehicles are electric, when should we charge their batteries to make sure they are on the road when they are needed? Will thousands of vehicles recharging at once destabilize the power grid? How should these sistems interact with existing infrastructure, such as the subway and commuter trains?
+Our research strives to answer these questions.	

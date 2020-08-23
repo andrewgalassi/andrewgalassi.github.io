@@ -1,0 +1,832 @@
+% Encoding: UTF-8
+
+@Preamble{"\newcommand{\noopsort}[1]{} " #
+"\newcommand{\printfirst}[2]{#1} " #
+"\newcommand{\singleletter}[1]{#1} " #
+"\newcommand{\switchargs}[2]{#2#1} "}
+
+@String{conf_AAAI_ICAPS           = {{International Conference on Automated Planning and Scheduling (ICAPS)}}}
+
+@String{conf_ACM_HSCC = {{Hybrid Systems: Computation and Control}}}
+@String{conf_AIAA_ASC = {{AIAA/AAS Astrodynamics Specialist Conference}}}
+@String{conf_AIAA_GNC = {{AIAA Conf.\ on Guidance, Navigation and Control}}}
+@String{conf_AIAA_SPACE = {{AIAA SPACE Conferences \& Exposition}}}
+@String{conf_IAC = {{Int.\ Astronautical Congress}}}
+@String{conf_IEEE_AC = {{IEEE Aerospace Conference}}}
+@String{conf_IEEE_ACC = {{American Control Conference}}}
+@String{conf_IEEE_CDC = {{IEEE Conf.\ on Decision and Control}}}
+@String{conf_IEEE_ECC             = {{European Control Conference}}}
+@String{conf_IEEE_ICRA = {{IEEE Conf.\ on Robotics and Automation}}}
+@String{conf_IEEE_IROS = {{IEEE/RSJ Int.\ Conf.\ on Intelligent Robots \& Systems}}}
+@String{conf_IEEE_ISRA = {{Int.\ Symp.\ on Robotics and Applications}}}
+@String{conf_IEEE_SmartGridComm   = {}}
+@String{conf_IFAC_WC = {{IFAC World Congress}}}
+@String{conf_iSAIRIS = {{i-SAIRAS}}}
+@String{conf_LPIACM = {{LPI Asteroids, Comets, Meteors}}}
+@String{conf_LPSC = {{Lunar and Planetary Science Conference}}}
+@String{conf_NASA_FMS = {{NASA GSFC Flight Mechanics Symposium}}}
+@String{conf_SPIE_SFDCRS = {{SPIE Symp.\ on Sensor Fusion and Decentralized Control in Robotic Systems}}}
+@String{ios_DTIC                  = {{DTIC}}}
+@String{ios_IMBJ                  = {{IBM Japan}}}
+@String{ios_JAXA                  = {{JAXA}}}
+@String{ios_JPL                   = {{JPL}}}
+@String{ios_KMS                   = {{Kharkov Mathematics Society}}}
+@String{ios_Mathworks             = {{The Mathworks, Inc.}}}
+@String{ios_MMA                   = {{Martin Marietta Aerospace}}}
+@String{ios_NASA                  = {{NASA}}}
+@String{ios_NASA_ESTO             = {{NASA Earth Science Technology Office}}}
+@String{ios_NASA_MSFC             = {{NASA Marshall Space Flight Center}}}
+@String{ios_NASA_NIAC              = {{NASA NIAC Program}}}
+@String{ios_NASA_ODO              = {{NASA Orbital Debris Office}}}
+@String{ios_NASA_PSD              = {{Planetary Science Division, NASA Science Mission Directorate}}}
+@String{ios_NBER                  = {{National Bureau of Economic Research}}}
+@String{ios_NIST                  = {{National Institute of Standards and Technology}}}
+@String{ios_NRC                   = {{National Research Council}}}
+@String{ios_NVIDIA                = {{NVIDIA}}}
+@String{ios_ONR                   = {{Office of Naval Research}}}
+@String{ios_SBAG                  = {{Small Bodies Assessment Group}}}
+@String{ios_UN                    = {{United Nations}}}
+@String{ios_univ_Amsterdam        = {{Universiteit van Amsterdam}}}
+@String{ios_univ_Bologna_LARDEIS  = {{LAR-DEIS, University of Bologna}}}
+@String{ios_univ_Boston           = {{Boston University}}}
+@String{ios_univ_Bremen           = {{Universit\"at Bremen, Germany}}}
+@String{ios_univ_Bresca_EM        = {{Dept. of Economics and Management, University of Bresca}}}
+@String{ios_univ_Caltech = {{California Institute of Technology}}}
+@String{ios_univ_Chicago          = {{University of Chicago}}}
+@String{ios_univ_CMU              = {{Carnegie Mellon University}}}
+@String{ios_univ_CMU_TRI          = {{The Robotics Institute, CMU}}}
+@String{ios_univ_Columbia         = {{Columbia University}}}
+@String{ios_univ_Cornell_ORIE     = {{School of Operations Research and Industrial Engineering, Cornell University}}}
+@String{ios_univ_Cranfield        = {{Cranfield University}}}
+@String{ios_univ_DTU              = {{Technical University of Denmark}}}
+@String{ios_univ_DUT              = {{Delft University of Technology}}}
+@String{ios_univ_EasternFinland   = {{University of Eastern Finland}}}
+@String{ios_univ_ETH_IFA          = {{Institut f\"ur Automatik, ETH}}}
+@String{ios_univ_Florence         = {{Universit\'a di Firenze, Italy}}}
+@String{ios_univ_Harvard          = {{Harvard University}}}
+@String{ios_univ_HUB              = {{Humboldt University of Berlin}}}
+@String{ios_univ_IllinoisState    = {{Illinois State University}}}
+@String{ios_univ_KIT              = {{Karlsruhe Institute of Technology}}}
+@String{ios_univ_Liege            = {{Universit\'e of Li\`ege, Belgium}}}
+@String{ios_univ_Maryland         = {{University of Maryland}}}
+@String{ios_univ_Maryland_ISR     = {{Institute for Systems Research, University of Maryland}}}
+@String{ios_univ_Maryland_ISREE   = {{Institute for Systems Research and EE Department, University of Maryland}}}
+@String{ios_univ_McGill = {{McGill University}}}
+@String{ios_univ_Michigan         = {{University of Michigan}}}
+@String{ios_univ_MINESPT          = {{MINES ParisTech}}}
+@String{ios_univ_MIT              = {{Massachusetts Institute of Technology}}}
+@String{ios_univ_MIT_AA           = {{Massachusetts Institute of Technology, Dept.\ of Aeronautics and Astronautics}}}
+@String{ios_univ_MIT_CSAIL        = {{MIT CSAIL}}}
+@String{ios_univ_MIT_EECS         = {{MIT - EECS Department}}}
+@String{ios_univ_MIT_LIDS         = {{Laboratory for Information and Decision Systems, MIT}}}
+@String{ios_univ_MIT_LL           = {{MIT Lincoln Laboratory}}}
+@String{ios_univ_NorthCarolina_CS = {{Dept. of Computer Science, University of N. Carolina}}}
+@String{ios_univ_NYU_CS           = {{New York University Comp. Sci. Dept.}}}
+@String{ios_univ_OhioState        = {{The Ohio State University}}}
+@String{ios_univ_Padua            = {{Universit\'a di Padova, Italy}}}
+@String{ios_univ_Princeton_MAE    = {{Mechanical and Aerospace Engineering, Princeton University}}}
+@String{ios_univ_Rutgers          = {{Rutgers University}}}
+@String{ios_univ_Stanford         = {{Stanford University}}}
+@String{ios_univ_Stanford_AA         = {{Stanford University, Dept.\ of Aeronautics and Astronautics}}}
+@String{ios_univ_Technion         = {{Technion -- Israel Institute of Technology}}}
+@String{ios_univ_Technion_CIS     = {{Center for Intelligent Systems, Technion}}}
+@String{ios_univ_Tennessee        = {{The University of Tennessee}}}
+@String{ios_univ_Toronto          = {{University of Toronto}}}
+@String{ios_univ_TUM              = {{Technische Universit\"at M\"unchen}}}
+@String{ios_univ_Twente           = {{University of Twente}}}
+@String{ios_univ_Twente_FAM       = {{Faculty of Applied Mathematics, University of Twente}}}
+@String{ios_univ_UC3M             = {{Universidad Carlos III de Madrid, Spain}}}
+@String{ios_univ_UCBerkeley       = {{University of California, Berkeley}}}
+@String{ios_univ_UCBerkeley_EE    = {{Dept. of Electrical Engineering, University of California, Berkeley}}}
+@String{ios_univ_UCBerkeley_EECS  = {{Dept. of EECS, University of California at Berkeley}}}
+@String{ios_univ_UCBerkeley_ITS   = {{Institute of Transportation Studies, University of California at Berkeley}}}
+@String{ios_univ_UCL              = {{Universit\'e catholique de Louvain, Belgium}}}
+@String{ios_univ_UCLA             = {{University of California, Los Angeles}}}
+@String{ios_univ_UCSB             = {{University of California at Santa Barbara}}}
+@String{ios_univ_UCSD             = {{University of California at San Diego}}}
+@String{ios_univ_UIUC             = {{University of Illinois at Urbana-Champaign}}}
+@String{ios_univ_UNCCH_ORSA       = {{Dept. of Operations Research and System Analysis , UNC Chapel Hill}}}
+@String{ios_univ_UPenn            = {{University of Pennsylvania}}}
+@String{ios_univ_UPenn_CIS        = {{Department of Computer and Information Science, University of Pennsylvania}}}
+@String{ios_univ_Waterloo         = {{University of Waterloo}}}
+@String{ios_univ_WPI              = {{Worcester Polytechnic Institute}}}
+@String{ios_univ_Wurzburg         = {{Universit\"at W\"urzburg, Germany}}}
+@String{ios_univ_Wurzburg_IFM     = {{Institut f\"ur Mathematik, Universit\"at W\"urzburg}}}
+@String{ios_univ_Yale             = {{Yale University}}}
+@String{ios_univ_Yale_CSS         = {{Center for Systems Science, Yale University}}}
+@String{ios_USA                   = {{United Space Alliance}}}
+@String{ios_USDC_UPD              = {{U.S. Department of Commerce, Urban Planning Division}}}
+@String{ios_USDT                  = {{U.S. Department of Transportation}}}
+@String{jrn_AAAI_AIM              = {{AI Magazine}}}
+@String{jrn_AAAI_JAIR      = {{Journal of Artificial Intelligence Research}}}
+@String{jrn_AAS_AAS = {{Advances in the Astronautical Sciences}}}
+@String{jrn_ACM_CACM = {{Communications of the ACM}}}
+@String{jrn_ACM_CS = {{ACM Computing Surveys}}}
+@String{jrn_ACM_JACM = {{Journal of the Association for Computing Machinery}}}
+@String{jrn_ACM_JRS = {{Journal of Robotic Systems}}}
+@String{jrn_ACM_MONET = {{Journal of Mobile Networks and Applications}}}
+@String{jrn_ACM_SenSys = {{ACM Conf.\ on Embedded Networked Sensor Systems (SenSys)}}}
+@String{jrn_ACM_SIGACT            = {{ACM SIGACT}}}
+@String{jrn_ACM_TALG              = {{ACM Transactions on Algorithms}}}
+@String{jrn_ACM_TOC               = {{AMC Transactions on Graphics}}}
+@String{jrn_ACM_TOMACS = {{ACM Transactions on Modeling and Computer Simulation}}}
+@String{jrn_ACM_TOMS              = {{ACM Transactions on Mathematical Software}}}
+@String{jrn_ACM_TOPLAS = {{ACM Transactions on Programming Languages and Systems (TOPLAS)}}}
+@String{jrn_AIAA_J = {{AIAA Journal}}}
+@String{jrn_AIAA_JACIC = {{AIAA Journal of Aerospace Computing, Information, and Communication}}}
+@String{jrn_AIAA_JAS = {{AIAA Journal of the Aerospace Sciences}}}
+@String{jrn_AIAA_JGCD = {{AIAA Journal of Guidance, Control, and Dynamics}}}
+@String{jrn_AIAA_JGCDCGC = {{AIAA Journal of Guidance, Control, and Dynamics, Special Issue on Computational Guidance and Control}}}
+@String{jrn_AIAA_JSR = {{AIAA Journal of Spacecraft and Rockets}}}
+@String{jrn_AIP_RSI = {{Review of Scientific Instruments}}}
+@String{jrn_AJP                   = {{American Journal of Physics}}}
+@String{jrn_ALT                   = {{Algorithmic Learning Theory}}}
+@String{jrn_AMCS = {{Int.\ Journal of Applied Mathematics and Computer Science}}}
+@String{jrn_AMS_JAMC = {{Journal of Applied Meteorology}}}
+@String{jrn_AMS_P                 = {{Proceedings of the American Mathematical Society}}}
+@String{jrn_AMS_T                 = {{Transactions of the American Mathematical Society}}}
+@String{jrn_APA_PR                = {{Psychological Review}}}
+@String{jrn_APS_PRE = {{Physical Review E}}}
+@String{jrn_APS_PRL = {{Physical Review Letters}}}
+@String{jrn_APS_RMP = {{Reviews of Modern Physics}}}
+@String{jrn_APT_AAP = {{Advances in Applied Probability}}}
+@String{jrn_APT_JAP = {{Journal of Applied Probability}}}
+@String{jrn_ASME_JBE = {{ASME Journal of Biomechanical Engineering}}}
+@String{jrn_ASME_JDSMC = {{ASME Journal of Dynamic Systems, Measurement, and Control}}}
+@String{jrn_ASME_JMD = {{ASME Journal of Mechanical Design}}}
+@String{jrn_Brill_B = {{Behaviour}}}
+@String{jrn_CC                    = {{Control and Cybernetics}}}
+@String{jrn_CRC_HDCG              = {{Handbook of Discrete and Computational Geometry}}}
+@String{jrn_CUP_R = {{Robotica}}}
+@String{jrn_DCDIS = {{Dynamics of Continuous Discrete and Impulsive Systems}}}
+@String{jrn_DMJ                   = {{Duke Math Journal}}}
+@String{jrn_EDPS_ESAIMCOCV = {{ESAIM: Control, Optimisation \& Calculus of Variations}}}
+@String{jrn_Elsevier_AA = {{Acta Astronautica}}}
+@String{jrn_Elsevier_AB           = {{Animal Behaviour}}}
+@String{jrn_Elsevier_AI           = {{Artificial Intelligence}}}
+@String{jrn_Elsevier_ASR = {{Advances in Space Research}}}
+@String{jrn_Elsevier_CEP = {{Control Engineering Practice}}}
+@String{jrn_Elsevier_CGTA = {{Computational Geometry: Theory and Applications}}}
+@String{jrn_Elsevier_COR = {{Computers \& Operations Research}}}
+@String{jrn_Elsevier_CRAS = {{Comptes Rendus de l'Acad\'emie des Sciences}}}
+@String{jrn_Elsevier_CSR = {{Cognitive Systems Research}}}
+@String{jrn_Elsevier_DAM = {{Discrete Applied Mathematics}}}
+@String{jrn_Elsevier_EJOR = {{European Journal of Operational Research}}}
+@String{jrn_Elsevier_FSS = {{Fuzzy Sets and Systems}}}
+@String{jrn_Elsevier_HCG          = {{Handbook of Convex Geometry}}}
+@String{jrn_Elsevier_IC = {{Information and Computation}}}
+@String{jrn_Elsevier_IPL = {{Information Processing Letters}}}
+@String{jrn_Elsevier_JA = {{Journal of Algorithms}}}
+@String{jrn_Elsevier_JBF = {{Journal of Banking \& Finance}}}
+@String{jrn_Elsevier_JCSS = {{Journal of Computer and System Sciences}}}
+@String{jrn_Elsevier_JCTSB = {{Journal of Combinatorial Theory, Series B}}}
+@String{jrn_Elsevier_JDE = {{Journal of Differential Equations}}}
+@String{jrn_Elsevier_JHM = {{Journal of Hazardous Materials}}}
+@String{jrn_Elsevier_JMAA = {{Journal of Mathematical Analysis and Applications}}}
+@String{jrn_Elsevier_JPC = {{Journal of Process Control}}}
+@String{jrn_Elsevier_JPDC = {{Journal of Parallel and Distributed Computing}}}
+@String{jrn_Elsevier_JSV = {{Journal of Sound and Vibration}}}
+@String{jrn_Elsevier_JTB = {{Journal of Theoretical Biology}}}
+@String{jrn_Elsevier_LAIA = {{Linear Algebra and its Applications}}}
+@String{jrn_Elsevier_MCM = {{Mathematical and Computer Modelling}}}
+@String{jrn_Elsevier_NATMA = {{Nonlinear Analysis: Theory, Methods \& Applications}}}
+@String{jrn_Elsevier_ORL = {{Operations Research Letters}}}
+@String{jrn_Elsevier_PA = {{Physica A: Statistical and Theoretical Physics}}}
+@String{jrn_Elsevier_PAS = {{Progress in Aerospace Sciences}}}
+@String{jrn_Elsevier_PD = {{Physica D: Nonlinear Phenomena}}}
+@String{jrn_Elsevier_RAS = {{Robotics and Autonomous Systems}}}
+@String{jrn_Elsevier_RMP = {{Reports on Mathematical Physics}}}
+@String{jrn_Elsevier_SCL = {{System and Control Letters}}}
+@String{jrn_Elsevier_SCP = {{Science of Computer Programming}}}
+@String{jrn_Elsevier_SPA = {{Stochastic Processes and their Applications}}}
+@String{jrn_Elsevier_TCS = {{Theoretical Computer Science}}}
+@String{jrn_Elsevier_TEJ = {{The Electricity Journal}}}
+@String{jrn_Elsevier_TRPB = {{Transportation Research Part B: Methodological}}}
+@String{jrn_Elsevier_TRPC = {{Transportation Research Part C: Emerging Technologies}}}
+@String{jrn_Elsevier_TRPE = {{Transportation Research Part E: Logistics and Transportation Review}}}
+@String{jrn_EPL                   = {{Europhysics Letters}}}
+@String{jrn_EUCA_EJC = {{European Journal of Control}}}
+@String{jrn_GCT                   = {{Geometric Control Theory}}}
+@String{jrn_ICE                   = {{Proceedings of the Institution of Civil Engineers}}}
+@String{jrn_IEEE_C = {{IEEE Computer}}}
+@String{jrn_IEEE_CSM = {{IEEE Control Systems Magazine}}}
+@String{jrn_IEEE_ISA = {{IEEE Intelligent Systems and their Applications}}}
+@String{jrn_IEEE_JOE = {{IEEE Journal of Oceanic Engineering}}}
+@String{jrn_IEEE_JRA = {{IEEE Journal of Robotics and Automation}}}
+@String{jrn_IEEE_JSAC = {{IEEE Journal on Selected Areas in Communication}}}
+@String{jrn_IEEE_JSEE = {{Journal of Systems Engineering and Electronics}}}
+@String{jrn_IEEE_P = {{Proceedings of the IEEE}}}
+@String{jrn_IEEE_PC = {{IEEE Pervasive Computing}}}
+@String{jrn_IEEE_RAM = {{IEEE Robotics and Automation Magazine}}}
+@String{jrn_IEEE_SensJ = {{IEEE Sensors Journal}}}
+@String{jrn_IEEE_SPM = {{IEEE Signal Processing Magazine}}}
+@String{jrn_IEEE_SysJ = {{IEEE Systems Journal}}}
+@String{jrn_IEEE_TAC = {{IEEE Transactions on Automatic Control}}}
+@String{jrn_IEEE_TAES = {{IEEE Transactions on Aerospace and Electronic Systems}}}
+@String{jrn_IEEE_TASE = {{IEEE Transactions on Automation Sciences and Engineering}}}
+@String{jrn_IEEE_TC = {{IEEE Transactions on Computers}}}
+@String{jrn_IEEE_TCAD = {{IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}}}
+@String{jrn_IEEE_TCNS             = {{IEEE Transactions on Control of Network Systems}}}
+@String{jrn_IEEE_TCS = {{IEEE Transactions on Circuits and Systems}}}
+@String{jrn_IEEE_TCSI             = {{IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications}}}
+@String{jrn_IEEE_TCST             = {{IEEE Transactions on Control Systems Technology}}}
+@String{jrn_IEEE_TIE = {{IEEE Transactions on Industrial Electronics}}}
+@String{jrn_IEEE_TII = {{IEEE Transactions on Industrial Informatics}}}
+@String{jrn_IEEE_TIT = {{IEEE Transactions on Information Theory}}}
+@String{jrn_IEEE_TITS = {{IEEE Transactions on Intelligent Transportation Systems}}}
+@String{jrn_IEEE_TMC = {{IEEE Transactions on Mobile Computing}}}
+@String{jrn_IEEE_TNN              = {{IEEE Transactions on Neural Networks}}}
+@String{jrn_IEEE_TOC              = {{IEEE Transactions on Communications}}}
+@String{jrn_IEEE_TON = {{IEEE/ACM Transactions on Networking}}}
+@String{jrn_IEEE_TPAMI = {{IEEE Transactions on Pattern Analysis \& Machine Intelligence}}}
+@String{jrn_IEEE_TPAS = {{IEEE Transactions on Power Apparatus and Systems}}}
+@String{jrn_IEEE_TPD              = {{IEEE Transactions on Power Delivery}}}
+@String{jrn_IEEE_TPE = {{IEEE Transactions on Power Electronics}}}
+@String{jrn_IEEE_TPS = {{IEEE Transactions on Power Systems}}}
+@String{jrn_IEEE_TR = {{IEEE Transactions on Robotics}}}
+@String{jrn_IEEE_TRA = {{IEEE Transactions on Robotics and Automation}}}
+@String{jrn_IEEE_TSMC = {{IEEE Transactions on Systems, Man, \& Cybernetics}}}
+@String{jrn_IEEE_TSMCA = {{IEEE Transactions on Systems, Man, \& Cybernetics, Part~A: Systems \& Humans}}}
+@String{jrn_IEEE_TSMCB = {{IEEE Transactions on Systems, Man, \& Cybernetics, Part~B: Cybernetics}}}
+@String{jrn_IEEE_TSMCC = {{IEEE Transactions on Systems, Man, \& Cybernetics, Part~C: Applications \& Reviews}}}
+@String{jrn_IEEE_TSP = {{IEEE Transactions on Signal Processing}}}
+@String{jrn_IEEE_TSSC = {{IEEE Transactions on Systems, Science, \& Cybernetics}}}
+@String{jrn_IET_JGRP = {{IET Control Theory \& Applications}}}
+@String{jrn_IFAC_A = {{Automatica}}}
+@String{jrn_IMA_JMCI = {{IMA Journal of Mathematical Control and Information}}}
+@String{jrn_IMS_AAP = {{Annals of Applied Probability}}}
+@String{jrn_IMS_AMS = {{Annals of Mathematical Statistics}}}
+@String{jrn_INFORMS_MOR = {{Mathematics of Operations Research}}}
+@String{jrn_INFORMS_MS = {{Management Science}}}
+@String{jrn_INFORMS_OR = {{Operations Research}}}
+@String{jrn_INFORMS_TS = {{Transportation Science}}}
+@String{jrn_IOP_CQG = {{Classical and Quantum Gravity}}}
+@String{jrn_IOP_JPAMG = {{Journal of Physics A: Mathematical and General}}}
+@String{jrn_IOP_N = {{Nonlinearity}}}
+@String{jrn_JASSS = {{Journal of Artificial Societies and Social Simulation}}}
+@String{jrn_JHUP_AJM = {{American Journal of Mathematics}}}
+@String{jrn_JMLR = {{Journal of Machine Learning Research}}}
+@String{jrn_JMSEC = {{Journal of Mathematics Systems, Estimation and Control}}}
+@String{jrn_JR = {{Journal of Risk}}}
+@String{jrn_LMS_M = {{Mathematika}}}
+@String{jrn_LMS_P                 = {{Proc. London Mathematical Society}}}
+@String{jrn_MSP_PJM = {{Pacific Journal of Mathematics}}}
+@String{jrn_MTNS = {{Mathematical Theory of Networks and Systems}}}
+@String{jrn_Nature = {{Nature}}}
+@String{jrn_NPI_FTML              = {{Foundations and Trends in Machine Learning}}}
+@String{jrn_NPI_FTN               = {{Foundations and Trends in Networking}}}
+@String{jrn_NPI_FTSP              = {{Foundations and Trends in Signal Processing}}}
+@String{jrn_ORS_JORS = {{Journal of the Operational Research Society}}}
+@String{jrn_OUP_B = {{Bioinformatics}}}
+@String{jrn_SAGE_IJRR = {{Int.\ Journal of Robotics Research}}}
+@String{jrn_Science = {{Science}}}
+@String{jrn_SIAM_JADM = {{SIAM Journal on Algebraic and Discrete Methods}}}
+@String{jrn_SIAM_JADS = {{SIAM Journal on Applied Dynamical Systems}}}
+@String{jrn_SIAM_JAM = {{SIAM Journal on Applied Mathematics}}}
+@String{jrn_SIAM_JC = {{SIAM Journal on Control}}}
+@String{jrn_SIAM_JCM = {{SIAM Journal on Computing}}}
+@String{jrn_SIAM_JCO = {{SIAM Journal on Control and Optimization}}}
+@String{jrn_SIAM_JDM = {{SIAM Journal on Discrete Mathematics}}}
+@String{jrn_SIAM_JMA = {{SIAM Journal on Mathematical Analysis}}}
+@String{jrn_SIAM_JNA = {{SIAM Journal on Numerical Analysis}}}
+@String{jrn_SIAM_JO = {{SIAM Journal on Optimization}}}
+@String{jrn_SIAM_MAA = {{SIAM Journal on Matrix Analysis and Applications}}}
+@String{jrn_SIAM_R = {{SIAM Review}}}
+@String{jrn_SIAM_SISC = {{SIAM Journal on Scientific Computing}}}
+@String{jrn_SIAM_TPIA = {{Theory of Probability and Its Applications}}}
+@String{jrn_Spr_A  = {{Algorithmica}}}
+@String{jrn_Spr_AAM = {{Acta Applicandae Mathematicae}}}
+@String{jrn_Spr_AMAI  = {{Annals of Mathematics and Artificial Intelligence}}}
+@String{jrn_Spr_AOR = {{Annals of Operations Research}}}
+@String{jrn_Spr_AR = {{Autonomous Robots}}}
+@String{jrn_Spr_ARC = {{Automation and Remote Control}}}
+@String{jrn_Spr_ARMA = {{Archive for Rational Mechanics and Analysis}}}
+@String{jrn_Spr_BC = {{Biological Cybernetics}}}
+@String{jrn_Spr_BES = {{Behavioral Ecology and Sociobiology}}}
+@String{jrn_Spr_C = {{Combinatorica}}}
+@String{jrn_Spr_CC                = {{Cooperative Control}}}
+@String{jrn_Spr_CPR               = {{Control Problems in Robotics}}}
+@String{jrn_Spr_CSA = {{Cybernetics and Systems Analysis}}}
+@String{jrn_Spr_CSSP              = {{Circuits, Systems and Signal Processing}}}
+@String{jrn_Spr_DCG = {{Discrete \& Computational Geometry}}}
+@String{jrn_Spr_EFM = {{Environmental Fluid Mechanics}}}
+@String{jrn_Spr_FS = {{Finance and Stochastic}}}
+@String{jrn_Spr_IJCV = {{Int.\ Journal of Computer Vision}}}
+@String{jrn_Spr_JDCS = {{Journal of Dynamical and Control Systems}}}
+@String{jrn_Spr_JIRS = {{Journal of Intelligent \& Robotic Systems}}}
+@String{jrn_Spr_JNS = {{Journal of Nonlinear Science}}}
+@String{jrn_Spr_JOTA = {{Journal of Optimization Theory \& Applications}}}
+@String{jrn_Spr_LNCS              = {{Lecture Notes in Computer Science}}}
+@String{jrn_Spr_MA = {{Mathematische Annalen}}}
+@String{jrn_Spr_MCSS = {{Mathematics of Control, Signals and Systems}}}
+@String{jrn_Spr_MCT               = {{Mathematical Control Theory}}}
+@String{jrn_Spr_ML = {{Machine Learning}}}
+@String{jrn_Spr_MMOR = {{Mathematical Methods in Operations Research}}}
+@String{jrn_Spr_MP = {{Mathematical Programming}}}
+@String{jrn_Spr_NADEC = {{Nonlinear Analysis, Differential Equations and Control}}}
+@String{jrn_Spr_NETS = {{Networks and Spatial Economics}}}
+@String{jrn_Spr_NM = {{Numerische Mathematik}}}
+@String{jrn_Spr_NMPC = {{Nonlinear Model Predictive Control}}}
+@String{jrn_Spr_SHR               = {{Springer Handbook of Robotics}}}
+@String{jrn_Spr_SMFTA = {{Systems, Models and Feedback: Theory and Applications}}}
+@String{jrn_Spr_SSR = {{Space Science Reviews}}}
+@String{jrn_Spr_TOCS = {{Theory of Computing Systems}}}
+@String{jrn_Spr_ZWG = {{Zeitschrift f\"ur Wahrscheinlichkeitstheorie und verwandte Gebiete}}}
+@String{jrn_ST                    = {{Space Technology}}}
+@String{jrn_TF_AR                 = {{Advanced Robotics}}}
+@String{jrn_TF_DSS = {{Dynamics and Stability of Systems}}}
+@String{jrn_TF_IJC = {{Int.\ Journal of Control}}}
+@String{jrn_TF_VSD = {{Vehicle System Dynamics}}}
+@String{jrn_TRB_TRR = {{Transportation Research Record: Journal of the Transportation Research Board}}}
+@String{jrn_UCP_BB = {{Biological Bulletin}}}
+@String{jrn_UCP_TAN = {{Nonlinear Model Predictive Control}}}
+@String{jrn_Wiley_AJC = {{Asian Journal of Control}}}
+@String{jrn_Wiley_C = {{Complexity}}}
+@String{jrn_Wiley_CGF = {{Computer Graphics Forum}}}
+@String{jrn_Wiley_CPAM = {{Communications on Pure and Applied Mathematics}}}
+@String{jrn_Wiley_E = {{Econometrica}}}
+@String{jrn_Wiley_IJCTA = {{Int. Journal of Circuit Theory and Applications}}}
+@String{jrn_Wiley_IJRNC = {{Int.\ Journal of Robust and Nonlinear Control}}}
+@String{jrn_Wiley_JFR = {{Journal of Field Robotics}}}
+@String{jrn_Wiley_JGRP = {{Journal of Geophysical Research: Planets}}}
+@String{jrn_Wiley_JGRSP = {{Journal of Geophysical Research: Space Physics}}}
+@String{jrn_Wiley_JRSSSA          = {{Journal of the Royal Statistical Society: Series A}}}
+@String{jrn_Wiley_JRSSSB          = {{Journal of the Royal Statistical Society: Series B}}}
+@String{jrn_Wiley_MF = {{Mathematical Finance}}}
+@String{jrn_Wiley_N               = {{Networks}}}
+@String{jrn_Wiley_NRL = {{Naval Research Logistics}}}
+@String{jrn_WRR = {{Water Resources Research}}}
+@String{jrn_WS_IJCGA = {{Int.\ Journal of Computational Geometry \& Applications}}}
+@String{jrn_WS_IJMPC              = {{Int.\ Journal of Modern Physics C}}}
+@String{proc_AAAI_AAAI = {{Proc.\ AAAI Conf.\ on Artificial Intelligence}}}
+@String{proc_AAAI_FS = {{AAAI Fall Symposium}}}
+@String{proc_AAAI_IJCAI = {{Proc.\ Int.\ Joint Conf.\ on Artificial Intelligence}}}
+@String{proc_AAMAS = {{Proc.\ Int.\ Conf.\ on Autonomous Agents and Multiagent Systems}}}
+@String{proc_AAS_GNC = {{AAS GN\&C Conference}}}
+@String{proc_ACL                  = {{Proc. Annual Meeting of the Association for Computational Linguistics}}}
+@String{proc_ACM_HSCC = {{Hybrid Systems: Computation and Control}}}
+@String{proc_ACM_IPSN_conf = {{Int.\ Conf.\ on Information Processing in Sensor Networks}}}
+@String{proc_ACM_IPSN_symp = {{Int.\ Symp.\ on Information Processing in Sensor Networks}}}
+@String{proc_ACM_MobiHoc = {{ACM Int.\ Symp.\ on Mobile Ad-Hoc Networking \& Computing}}}
+@String{proc_ACM_SIGGRAPH = {{Proceedings of SIGGRAPH}}}
+@String{proc_ACM_SIGPLAN          = {{ACM SIGPLAN Notices}}}
+@String{proc_ACM_SOCG = {{ACM Symp.\ on Computational Geometry}}}
+@String{proc_ACM_STOC = {{Symp.\ on the Theory of Computing}}}
+@String{proc_AIAA_ASC = {{AIAA/AAS Astrodynamics Specialist Conference}}}
+@String{proc_AIAA_ATIO = {{AIAA Aviation Technology, Integration, and Operations (ATIO)	Conference}}}
+@String{proc_AIAA_GNC = {{AIAA Conf.\ on Guidance, Navigation and Control}}}
+@String{proc_AIAA_SPACE = {{AIAA SPACE Conferences \& Exposition}}}
+@String{proc_AISTATS              = {{AI \& Statistics}}}
+@String{proc_CCC = {{Chinese Control Conference}}}
+@String{proc_CCCG = {{Canadian Conf.\ on Computational Geometry}}}
+@String{proc_DARS = {{Int.\ Symp.\ on Distributed Autonomous Robotic Systems}}}
+@String{proc_ECCV                 = {{European Conference on Computer Vision}}}
+@String{proc_ESA_ASTRA            = {{Adv. Space Technologies in Robotics and Automation}}}
+@String{proc_ESA_ECSD = {{European Conf.\ on Space Debris}}}
+@String{proc_EUCA_ECC = {{European Control Conference}}}
+@String{proc_EUSIPCO = {{European Signal Processing Conference}}}
+@String{proc_FSR = {{Field and Service Robotics}}}
+@String{proc_IAA_PDC = {{Planetary Defense Conference}}}
+@String{proc_IAC = {{Int.\ Astronautical Congress}}}
+@String{proc_ICAPS = {{Int.\ Conf.\ on Automated Planning and Scheduling}}}
+@String{proc_ICAS = {{Int.\ Congress of the Aeronautical Sciences}}}
+@String{proc_ICM = {{Int.\ Congress of Mathematicians}}}
+@String{proc_ICML = {{Int.\ Conf.\ on Machine Learning}}}
+@String{proc_IEEE_AC = {{IEEE Aerospace Conference}}}
+@String{proc_IEEE_ACC = {{American Control Conference}}}
+@String{proc_IEEE_Allerton = {{Allerton Conf.\ on Communications, Control and Computing}}}
+@String{proc_IEEE_ASCC = {{Asian Control Conference}}}
+@String{proc_IEEE_AUCC = {{Australian Control Conference}}}
+@String{proc_IEEE_CACSD = {{IEEE Int.\ Symp.\ on Computer Aided Control Systems Design}}}
+@String{proc_IEEE_CCA = {{IEEE Conf.\ on Control Applications}}}
+@String{proc_IEEE_CDC = {{Proc.\ IEEE Conf.\ on Decision and Control}}}
+@String{proc_IEEE_CVPR = {{IEEE Conf.\ on Computer Vision and Pattern Recognition}}}
+@String{proc_IEEE_DASC = {{Digital Avionics Systems Conference}}}
+@String{proc_IEEE_FOCS = {{IEEE Symp.\ on Foundations of Computer Science}}}
+@String{proc_IEEE_ICAR = {{Int.\ Conf.\ on Advanced Robotics}}}
+@String{proc_IEEE_ICASSP = {{IEEE Int.\ Conf.\ on Acoustics, Speech and Signal Processing}}}
+@String{proc_IEEE_ICRA = {{Proc.\ IEEE Conf.\ on Robotics and Automation}}}
+@String{proc_IEEE_INFOCOM = {{IEEE Conf.\ on Computer Communications}}}
+@String{proc_IEEE_IPDPS           = {{IEEE Parallel and Distributed Processing Symposium}}}
+@String{proc_IEEE_IRC = {{IEEE Int.\ Conf.\ on Robotic Computing}}}
+@String{proc_IEEE_IROS = {{IEEE/RSJ Int.\ Conf.\ on Intelligent Robots \& Systems}}}
+@String{proc_IEEE_ISCAS = {{Int.\ Symp.\ on Circuits and Systems}}}
+@String{proc_IEEE_ISIC = {{IEEE Int.\ Symp.\ on Intelligent Control}}}
+@String{proc_IEEE_ISRA = {{Proc.\ of the Int.\ Symp.\ on Robotics and Applications}}}
+@String{proc_IEEE_ITSC = {{Proc.\ IEEE Int.\ Conf.\ on Intelligent Transportation Systems}}}
+@String{proc_IEEE_MED = {{Mediterranean Conf.\ on Control and Automation}}}
+@String{proc_IEEE_PESGM = {{IEEE Power Engineering Society General Meeting}}}
+@String{proc_IFAC_AAC = {{Advances in Automotive Control}}}
+@String{proc_IFAC_LHMNLC = {{IFAC Workshop on Lagrangian and Hamiltonian Methods for Nonlinear Control}}}
+@String{proc_IFAC_NAASS           = {{IFAC Aerospace Controls TC Workshop: Networked \& Autonomous Air \& Space Systems (NAASS 2018)}}}
+@String{proc_IFAC_NOLCOS = {{IFAC Symp.\ on Nonlinear Control Systems}}}
+@String{proc_IFAC_WC = {{IFAC World Congress}}}
+@String{proc_IMR = {{Int.\ Meshing Roundtable}}}
+@String{proc_iSAIRIS = {{i-SAIRAS}}}
+@String{proc_ISER = {{Int.\ Symp.\ on Experimental Robotics}}}
+@String{proc_ISRR = {{Int.\ Symp.\ on Robotics Research}}}
+@String{proc_ISSFD = {{Int.\ Symp.\ on Space Flight Dynamics}}}
+@String{proc_ISTS                 = {{Int.\l Symp.\ on Space Technology and Science}}}
+@String{proc_IWSCFF = {{Int.\ Workshop on Satellite Constellations and Formation Flying}}}
+@String{proc_JPC                  = {{AIAA/ASME/SAE/ASEE Joint Propulsion Conference}}}
+@String{proc_LPIACM = {{LPI Asteroids, Comets, Meteors}}}
+@String{proc_LPSC = {{Lunar and Planetary Science Conference}}}
+@String{proc_NIPS = {{Advances in Neural Information Processing Systems}}}
+@String{proc_RLDM = {{The Multi-disciplinary Conf.\ on Reinforcement Learning and Decision Making}}}
+@String{proc_ROBOCOMM = {{Int.\ Conf.\ on Robot Communication and Coordination}}}
+@String{proc_RSS = {{Robotics: Science and Systems}}}
+@String{proc_SIAM_SODA = {{ACM-SIAM Symp.\ on Discrete Algorithms}}}
+@String{proc_SPIE = {{Proc.\ of SPIE}}}
+@String{proc_SPIE_DTNCS = {{Defense Transformation and Network-Centric Systems}}}
+@String{proc_SPIE_SFDCRS = {{SPIE Symp.\ on Sensor Fusion and Decentralized Control in Robotic Systems}}}
+@String{proc_SPIE_SPS = {{SPIE Small Payloads in Space}}}
+@String{proc_SPIE_SSM = {{SPIE Smart Structures and Materials}}}
+@String{proc_Spr_NESC = {{Proc.\ Network Embedded Sensing and Control}}}
+@String{proc_UAI                  = {{Proc.\ Conf.\ on Uncertainty in Artificial Intelligence}}}
+@String{proc_WAFDNMPC = {{Workshop on Assessment and Future Directions of NMPC}}}
+@String{proc_WAFR = {{Workshop on Algorithmic Foundations of Robotics}}}
+@String{pub_AKP = {{A. K. Peters}}}
+@String{pub_AMS = {{American Mathematical Society}}}
+@String{pub_AP = {{Academic Press}}}
+@String{pub_AS = {{Athena Scientific}}}
+@String{pub_AW = {{Addison-Wesley}}}
+@String{pub_BH = {{Birkh\"auser}}}
+@String{pub_CC = {{Courier Corporation}}}
+@String{pub_Cengage               = {{Cengage Learning}}}
+@String{pub_CRC = {{CRC Press}}}
+@String{pub_CUP = {{Cambridge University Press}}}
+@String{pub_DP             = {{Dover Publications}}}
+@String{pub_Elsevier = {{Elsevier}}}
+@String{pub_GBPG           = {{Gordon \& Breach Publishing Group}}}
+@String{pub_GPP            = {{Gulf Professional Publishing}}}
+@String{pub_GV             = {{Gauthier-Villars}}}
+@String{pub_HP             = {{Hemisphere Publishing}}}
+@String{pub_HRW            = {{Holt, Rinehart and Winston}}}
+@String{pub_Hyperion       = {{Hyperion}}}
+@String{pub_IEEE = {{IEEE Press}}}
+@String{pub_IP             = {{Interscience Publishers}}}
+@String{pub_ISUP           = {{Iowa State University Press}}}
+@String{pub_JHUP = {{John Hopkins University Press}}}
+@String{pub_KAP = {{Kluwer Academic Publishers}}}
+@String{pub_KPC            = {{Krieger Publishing Company}}}
+@String{pub_LPI = {{Lunar and Planetary Institute}}}
+@String{pub_LST            = {{Longman Scientific \& Technical}}}
+@String{pub_MAA = {{Mathematical Association of America}}}
+@String{pub_MD             = {{Marcel Dekker}}}
+@String{pub_MGH = {{McGraw-Hill}}}
+@String{pub_MIT = {{MIT Press}}}
+@String{pub_MK = {{Morgan Kaufmann}}}
+@String{pub_MNP            = {{Martinus Nijhoff Publishers}}}
+@String{pub_MSP = {{Mathematical Scientific Press}}}
+@String{pub_NAP            = {{National Academy Press}}}
+@String{pub_NH = {{North-Holland}}}
+@String{pub_NHP            = {{Nob Hill Publishing}}}
+@String{pub_NPI            = {{Now Publishers Inc.}}}
+@String{pub_OReilly        = {{O'Reilly}}}
+@String{pub_OUP = {{Oxford University Press}}}
+@String{pub_PBG            = {{Perseus Books Group}}}
+@String{pub_PH = {{Prentice Hall}}}
+@String{pub_PP             = {{Pergamon Press}}}
+@String{pub_PPI            = {{Publish or Perish, Inc.}}}
+@String{pub_PUP = {{Princeton University Press}}}
+@String{pub_PWSPC          = {{PWS Publishing Company}}}
+@String{pub_RPC = {{Reidel Publishing Company}}}
+@String{pub_SIAM = {{SIAM}}}
+@String{pub_Springer = {{Springer}}}
+@String{pub_Springer_BH           = {{Springer Berlin Heidelberg}}}
+@String{pub_Springer_NY           = {{Springer New York}}}
+@String{pub_SSBM = {{Springer Science \& Business Media}}}
+@String{pub_SUP            = {{Stanford University Press}}}
+@String{pub_SV = {{Springer-Verlag}}}
+@String{pub_TF = {{Taylor \& Francis}}}
+@String{pub_UCP            = {{The University of Chicago Press}}}
+@String{pub_VHWS           = {{V. H. Winston \& Sons}}}
+@String{pub_VNR            = {{Van Nostrand Reinhold}}}
+@String{pub_WG             = {{Walter de Gruyter}}}
+@String{pub_WHFC           = {{W. H. Freeman \& Company}}}
+@String{pub_Wiley = {{Wiley}}}
+@String{pub_WSP = {{World Scientific Publishing}}}
+
+@InProceedings{RossiPavone2014,
+  author    = {Rossi, Federico and Pavone, Marco},
+  title     = {On the Fundamental Limitations of Performance for Distributed Decision-Making in Robotic Networks},
+  booktitle = proc_IEEE_CDC,
+  year      = {2014},
+  address   = {Los Angeles, California},
+  month     = dec,
+  abstract  = {This paper studies fundamental limitations of performance for distributed decision-making in robotic networks. The class of decision-making problems we consider encompasses a number of prototypical problems such as average-based consensus as well as distributed optimization, leader election, majority voting, MAX, MIN, and logical formulas. We first propose a formal model for distributed computation on robotic networks that is based on the concept of I/O automata and is inspired by the Computer Science literature on distributed computing clusters. Then, we present a number of bounds on time, message, and byte complexity, which we use to discuss the relative performance of a number of approaches for distributed decision-making. From a methodological standpoint, our work sheds light on the relation between the tools developed by the Computer Science and Controls communities on the topic of distributed algorithms.},
+  doi       = {10.1109/CDC.2014.7039760},
+  keywords  = {Distributed systems},
+  url       = {http://arxiv.org/abs/1409.4863},
+}
+
+@InProceedings{RossiPavone2014b,
+  author    = {Rossi, Federico and Pavone, Marco},
+  title     = {Distributed Consensus with Mixed Time/Communication Bandwidth Performance Metrics},
+  booktitle = proc_IEEE_Allerton,
+  year      = {2014},
+  month     = oct,
+  abstract  = {In this paper we study the inherent trade-off between time and communication complexity for the distributed consensus problem. In our model, communication complexity is measured as the maximum data throughput (in bits per second) sent through the network at a given instant. Such a notion of communication complexity, referred to as bandwidth complexity, is related to the frequency bandwidth a designer should collectively allocate to the agents if they were to communicate via a wireless channel, which represents an important constraint for dense robotic networks. We prove a lower bound on the bandwidth complexity of the consensus problem and provide a consensus algorithm that is bandwidth-optimal for a wide class of consensus functions. We then propose a distributed algorithm that can trade communication complexity versus time complexity as a function of a tunable parameter, which can be adjusted by a system designer as a function of the properties of the wireless communication channel. We rigorously characterize the tunable algorithm's worst-case bandwidth complexity and show that it compares favorably with the bandwidth complexity of well-known consensus algorithm.},
+  doi       = {10.1109/ALLERTON.2014.7028468},
+  keywords  = {Distributed systems},
+  url       = {http://arxiv.org/abs/1410.0956},
+}
+
+@InProceedings{RossiPavone2013,
+  author    = {Rossi, Federico and Pavone, Marco},
+  title     = {Decentralized Decision-Making on Robotic Networks with Hybrid Performance Metrics},
+  booktitle = proc_IEEE_Allerton,
+  year      = {2013},
+  month     = oct,
+  abstract  = {The past decade has witnessed a rapidly growing interest in decentralized algorithms for collective decision-making in cyber-physical networks. For a large variety of settings, control strategies are now known that either minimize time complexity (i.e., convergence time) or optimize communication complexity (i.e., number and size of exchanged messages). Yet, little attention has beed paid to the problem of studying the inherent trade-off between time and communication complexity. Generally speaking, time-optimal algorithms are fast and robust, but require a large (and sometimes impractical) number of exchanged messages; in contrast, communication optimal algorithms minimize the amount of information routed through the network, but are slow and sensitive to link failures. In this paper we address this gap by focusing on a generalized version of the decentralized consensus problem (that includes voting and mediation) on undirected network topologies and in the presence of "infrequent" link failures. We present and rigorously analyze a tunable, semi-hierarchical algorithm, where the tuning parameter allows a graceful transition from time-optimal to communication-optimal performance (hence, allowing hybrid performance metrics), and determines the algorithm's robustness, measured as the time required to recover from a failure. An interesting feature of our algorithm is that it leads the decision-making agents to self-organize into a semi-hierarchical structure with variable-size clusters, among which information is flooded. Our results make use of a novel connection between the consensus problem and the theory of gamma synchronizers. Simulation experiments are presented and discussed.},
+  doi       = {10.1109/Allerton.2013.6736546},
+  keywords  = {Distributed systems},
+  url       = {https://www.federico.io/pdf/Rossi.Pavone.Allerton13.pdf},
+}
+
+@InProceedings{ZhangRossiEtAl2016b,
+  author    = {Zhang, R. and Rossi, F. and Pavone, M.},
+  title     = {Model Predictive Control of {Autonomous} {Mobility-on-Demand} Systems},
+  booktitle = proc_IEEE_ICRA,
+  year      = {2016},
+  address   = {Stockholm, Sweden},
+  month     = may,
+  abstract  = {In this paper we present a model predictive control (MPC) approach to optimize vehicle scheduling and routing in an autonomous mobility-on-demand (AMoD) system. In AMoD systems, robotic, self-driving vehicles transport customers within an urban environment and are coordinated to optimize service throughout the entire network. Specifically, we first propose a novel discrete-time model of an AMoD system and we show that this formulation allows the easy integration of a number of real-world constraints, e.g., electric vehicle charging constraints. Second, leveraging our model, we design a model predictive control algorithm for the optimal coordination of an AMoD system and prove its stability in the sense of Lyapunov. At each optimization step, the vehicle scheduling and routing problem is solved as a mixed integer linear program (MILP) where the decision variables are binary variables representing whether a vehicle will 1) wait at a station, 2) service a customer, or 3) rebalance to another station. Finally, by using real-world data, we show that the MPC algorithm can be run in real-time for moderately-sized systems and outperforms previous control strategies for AMoD systems.},
+  doi       = {10.1109/ICRA.2016.7487272},
+  keywords  = {AMoD},
+  url       = {http://arxiv.org/abs/1509.03985},
+}
+
+@InProceedings{ZhangRossiEtAl2016,
+  author    = {Zhang, R. and Rossi, F. and Pavone, M.},
+  title     = {Routing Autonomous Vehicles in Congested Transportation Networks: Structural Properties and Coordination Algorithms},
+  booktitle = proc_RSS,
+  year      = {2016},
+  month     = jul,
+  abstract  = {This paper considers the problem of routing and rebalancing a shared fleet of autonomous (i.e., self-driving) vehicles providing on-demand mobility within a capacitated transportation network, where congestion might disrupt throughput. We model the problem within a network flow framework and show that under relatively mild assumptions the rebalancing vehicles, if properly coordinated, do not lead to an increase in congestion (in stark contrast to common belief). From an algorithmic standpoint, such theoretical insight suggests that the problem of routing customers and rebalancing vehicles can be decoupled, which leads to a computationally-efficient routing and rebalancing algorithm for the autonomous vehicles. Numerical experiments and case studies corroborate our theoretical insights and show that the proposed algorithm outperforms state-of-the-art point-to-point methods by avoiding excess congestion on the road. Collectively, this paper provides a rigorous approach to the problem of congestion-aware, system-wide coordination of autonomously driving vehicles, and to the characterization of the sustainability of such robotic systems.},
+  doi       = {10.15607/rss.2016.xii.032},
+  keywords  = {AMoD},
+  owner     = {bylard},
+  timestamp = {2017-01-28},
+  url       = {http://arxiv.org/abs/1603.00939},
+}
+
+@InProceedings{IglesiasRossiEtAl2016,
+  author    = {Iglesias, R. and Rossi, F. and Zhang, R. and Pavone, M.},
+  title     = {A {BCMP} Network Approach to Modeling and Controlling {Autonomous} {Mobility-on-Demand} Systems},
+  booktitle = proc_WAFR,
+  year      = {2016},
+  month     = dec,
+  abstract  = {In this paper, we present a queueing network approach to the problem of routing and rebalancing a fleet of self-driving vehicles providing on-demand mobility within a capacitated road network. We refer to such systems as autonomous mobility-on-demand systems, or AMoD. We first cast an AMoD system into a closed, multi-class BCMP queueing network model. Second, we present analysis tools that allow the characterization of performance metrics for a given routing policy, in terms, e.g., of vehicle availabilities and second-order moments of vehicle throughput. Third, we propose a scalable method for the synthesis of routing policies, with performance guarantees in the limit of large fleet sizes. Finally, we validate our theoretical results on a case study of New York City. Collectively, this paper provides a unifying framework for the analysis and control of AMoD systems, which subsumes earlier Jackson and flow network models, provides a quite large set of modeling options (e.g., the inclusion of road capacities and general travel time distributions), and allows the analysis of second and higher-order moments for the performance metrics.},
+  keywords  = {AMoD},
+  url       = {http://arxiv.org/pdf/1607.04357},
+}
+
+@Article{RossiZhangEtAl2017,
+  author   = {Rossi, F. and Zhang, R. and Hindy, Y. and Pavone, M.},
+  title    = {Routing Autonomous Vehicles in Congested Transportation Networks: Structural Properties and Coordination Algorithms},
+  journal  = jrn_Spr_AR,
+  year     = {2018},
+  volume   = {42},
+  number   = {7},
+  pages    = {1427--1442},
+  abstract = {This paper considers the problem of routing and rebalancing a shared fleet of autonomous (i.e., self-driving) vehicles providing on-demand mobility within a capacitated transportation network, where congestion might disrupt throughput. We model the problem within a network flow framework and show that under relatively mild assumptions the rebalancing vehicles, if properly coordinated, do not lead to an increase in congestion (in stark contrast to common belief). From an algorithmic standpoint, such theoretical insight suggests that the problem of routing customers and rebalancing vehicles can be decoupled, which leads to a computationally-efficient routing and rebalancing algorithm for the autonomous vehicles. Numerical experiments and case studies corroborate our theoretical insights and show that the proposed algorithm outperforms state-of-the-art point-to-point methods by avoiding excess congestion on the road. Collectively, this paper provides a rigorous approach to the problem of congestion-aware, system-wide coordination of autonomously driving vehicles, and to the characterization of the sustainability of such robotic systems.},
+  code     = {https://github.com/StanfordASL/matsim-amod},
+  doi      = {10.1007/s10514-018-9750-5},
+  keywords = {AMoD},
+  url      = {https://www.federico.io/pdf/Rossi.Zhang.Hindy.Pavone.AURO17.pdf},
+}
+
+@Article{IglesiasRossiEtAl2017,
+  author   = {Iglesias, R. and Rossi, F. and Zhang, R. and Pavone, M.},
+  title    = {A {BCMP} Network Approach to Modeling and Controlling Autonomous Mobility-on-Demand Systems},
+  journal  = jrn_SAGE_IJRR,
+  year     = {2018},
+  volume   = {38},
+  number   = {2-3},
+  pages    = {357--374},
+  abstract = {In this paper we present a queuing network approach to the problem of routing and rebalancing a fleet of self-driving vehicles providing on- demand mobility within a capacitated road network. We refer to such systems as autonomous mobility-on-demand systems, or AMoD. We first cast an AMoD system into a closed, multi-class BCMP queuing network model capable of capturing the passenger arrival process, traffic, the state- of-charge of electric vehicles, and the availability of vehicles at the stations. Second, we propose a scalable method for the synthesis of routing and charging policies, with performance guarantees in the limit of large fleet sizes. Third, we validate the theoretical results on a case study of New York City. Collectively, this paper provides a unifying framework for the analysis and control of AMoD systems, which provides a large set of modeling options (e.g., the inclusion of road capacities and charging constraints), and subsumes earlier Jackson and network flow models.},
+  doi      = {10.1177/0278364918780335},
+  keywords = {AMoD},
+  url      = {https://www.federico.io/pdf/Iglesias.Rossi.Zhang.Pavone.IJRR18.pdf},
+}
+
+@InProceedings{RossiIglesiasEtAl2018,
+  author    = {Rossi, F. and Iglesias, R. and Alizadeh, M. and Pavone, M.},
+  title     = {On the interaction between Autonomous Mobility-on-Demand systems and the power network: models and coordination algorithms},
+  booktitle = proc_RSS,
+  year      = {2018},
+  month     = dec,
+  aaddress  = {Pittsburgh, PA},
+  abstract  = {We study the interaction between a fleet of electric, self-driving vehicles servicing on-demand transportation requests (referred to as Autonomous Mobility-on-Demand, or AMoD, system) and the electric power network. We propose a joint linear model that captures the coupling between the two systems stemming from the vehicles' charging requirements. The model subsumes existing network flow models for AMoD systems and linear models for the power network, and it captures time-varying customer demand and power generation costs, road congestion, and power transmission and distribution constraints. We then leverage the linear model to jointly optimize the operation of both systems. We propose an algorithmic procedure to losslessly reduce the problem size by bundling customer requests, allowing it to be efficiently solved by state-of-the-art linear programming solvers. Finally, we study the implementation of a hypothetical electric-powered AMoD system in Dallas-Fort Worth, and its impact on the Texas power network. We show that coordination between the AMoD system and the power network can reduce the overall energy expenditure compared to the case where no cars are present (despite the increased demand for electricity) and yield savings of $78M/year compared to an uncoordinated scenario. Collectively, the results of this paper provide a first-of-a-kind characterization of the interaction between electric-powered AMoD systems and the electric power network, and shed additional light on the economic and societal value of AMoD.},
+  code      = {https://github.com/StanfordASL/pamod},
+  doi       = {10.15607/RSS.2018.XIV.037},
+  keywords  = {AMoD},
+  owner     = {frossi2},
+  timestamp = {2018-04-19},
+  url       = {https://www.federico.io/pdf/Rossi.Iglesias.Alizadeh.Pavone.RSS18.pdf},
+}
+
+@InProceedings{IglesiasRossiEtAl2018,
+  author    = {Iglesias, Ramon and Rossi, Federico and Wang, Kevin and Hallac, David and Leskovec, Jure and Pavone, Marco},
+  title     = {Data-Driven Model Predictive Control of Autonomous Mobility-on-Demand Systems},
+  booktitle = proc_IEEE_ICRA,
+  year      = {2018},
+  address   = {Brisbane, Australia},
+  month     = may,
+  abstract  = {The goal of this paper is to present an end-to-end, data-driven framework to control Autonomous Mobility-on-Demand systems (AMoD, i.e. fleets of self-driving vehicles). We first model the AMoD system using a time-expanded network, and present a formulation that computes the optimal rebalancing strategy (i.e., preemptive repositioning) and the minimum feasible fleet size for a given travel demand. Then, we adapt this formulation to devise a Model Predictive Control (MPC) algorithm that leverages short-term demand forecasts based on historical data to compute rebalancing strategies. We test the end-to-end performance of this controller with a state-of-the-art LSTM neural network to predict customer demand and real customer data from DiDi Chuxing: we show that this approach scales very well for large systems (indeed, the computational complexity of the MPC algorithm does not depend on the number of customers and of vehicles in the system) and outperforms state-of-the-art rebalancing strategies by reducing the mean customer wait time by up to to 89.6%.},
+  doi       = {10.1109/ICRA.2018.8460966},
+  keywords  = {AMoD},
+  timestamp = {2018-01-14},
+  url       = {https://www.federico.io/pdf/Iglesias.Rossi.Wang.ea.ICRA18.pdf},
+}
+
+@InProceedings{RossiBandyopadhyayEtAl2018,
+  author    = {Rossi, Federico and Bandyopadhyay, Saptarshi and Wolf, Michael T. and Pavone, Marco},
+  title     = {Review of Multi-Agent Algorithms for Collective Behavior: a Structural Taxonomy},
+  booktitle = proc_IFAC_NAASS,
+  year      = {2018},
+  month     = jun,
+  abstract  = {In this paper, we review multi-agent collective behavior algorithms in the literature and classify them according to their underlying mathematical structure. For each mathematical technique, we identify the multi-agent coordination tasks it can be applied to, and we analyze its scalability, bandwidth use, and demonstrated maturity. We highlight how versatile techniques such as artificial potential functions can be used for applications ranging from low-level position control to high-level coordination and task allocation, we discuss possible reasons for the slow adoption of complex distributed coordination algorithms in the field, and we highlight areas for further research and development.},
+  keywords  = {Distributed systems, Survey},
+  owner     = {frossi2},
+  timestamp = {2018-02-01},
+  url       = {https://arxiv.org/abs/1803.05464},
+}
+
+@Article{ZhangPavone2018,
+  author    = {Zhang, Rick and Rossi, Federico and Pavone, Marco},
+  title     = {Analysis, Control, and Evaluation of Mobility-on-Demand Systems: a Queueing-Theoretical Approach},
+  journal   = jrn_IEEE_TCNS,
+  year      = {2018},
+  abstract  = {This paper presents a queueing-theoretical approach to the analysis, control, and evaluation of mobility-on-demand (MoD) systems for urban personal transportation. A MoD system consists of a fleet of vehicles providing one-way car sharing service and a team of drivers to rebalance such vehicles. The drivers then rebalance themselves by driving select customers similar to a taxi service. We model the MoD system as two coupled closed Jackson networks with passenger loss. We show that the system can be approximately balanced by solving two decoupled linear programs and exactly balanced through nonlinear optimization. The rebalancing techniques are applied to a system sizing example using taxi data in three neighborhoods of Manhattan. Lastly, we formulate a real-time closed-loop rebalancing policy for drivers and perform case studies of two hypothetical MoD systems in Manhattan and Hangzhou, China. We show that the taxi demand in Manhattan can be met with the same number of vehicles in a MoD system, but only require 1/3 to 1/4 the number of drivers; in Hangzhou, where customer demand is highly unbalanced, higher driver-to-vehicle ratios are required to achieve good quality of service.},
+  doi       = {10.1109/TCNS.2018.2800403},
+  keywords  = {AMoD},
+  owner     = {frossi2},
+  timestamp = {2018-05-10},
+  url       = {https://www.federico.io/pdf/Zhang.Rossi.Pavone.TCNS18.pdf},
+}
+
+@InProceedings{SalazarRossiEtAl2018,
+  author    = {Salazar, Mauro and Rossi, Federico and Schiffer, Maximilian and Onder, Christopher H. and Pavone, Marco},
+  title     = {On the Interaction between Autonomous Mobility-on-Demand and the Public Transportation Systems},
+  booktitle = proc_IEEE_ITSC,
+  year      = {2018},
+  address   = {Maui, Hawaii},
+  month     = nov,
+  note      = {\textbf{Best Student Paper Award}},
+  abstract  = {In this paper we study models and coordination policies for intermodal Autonomous Mobility-on-Demand (AMoD), wherein a fleet of self-driving vehicles provides on-demand mobility jointly with public transit. Specifically, we first present a network flow model for intermodal AMoD, where we capture the coupling between AMoD and public transit and the goal is to maximize social welfare. Second, leveraging such a model, we design a pricing and tolling scheme that allows to achieve the social optimum under the assumption of a perfect market with selfish agents. Finally, we present a real-world case study for New York City. Our results show that the coordination between AMoD fleets and public transit can yield significant benefits compared to an AMoD system operating in isolation.},
+  doi       = {10.1109/ITSC.2018.8569381},
+  keywords  = {AMoD},
+  timestamp = {2018-06-15},
+  url       = {https://arxiv.org/abs/1804.11278},
+}
+
+@InProceedings{Hook2019,
+  author       = {Joshua Vander Hook and Tiago Stegun Vaquero and Federico Rossi and Martina Troesch and Marc Sanchez-Net and Joshua Schoolcraft and Jean-Pierre de la Croix and Steve Chien},
+  title        = {Mars On-Site Shared Analytics Information and Computing},
+  booktitle    = conf_AAAI_ICAPS,
+  year         = {2019},
+  volume       = {29},
+  number       = {1},
+  pages        = {707--715},
+  address      = {Berkeley, CA},
+  month        = jul,
+  organization = {AAAI},
+  abstract     = {We study the use of distributed computation in a representative multi-robot planetary exploration mission. We model a network of small rovers with access to computing resources from a static base station based on current design efforts and extrapolation from the Mars 2020 rover autonomy. The key algorithmic problem is simultaneous scheduling of computation, communication, and caching of data, as informed by an autonomous mission planner. We consider scheduling of a dependency chain of required and optional (but rewarding) tasks and present a consensus-backed scheduler for shared-world, distributed scheduling based on an Integer Linear Program. We validate the pipeline with simulation and field results. Our results are intended to provide a baseline comparison and motivating application domain for future research into network-aware decentralized scheduling and resource allocation.},
+  code         = {https://github.com/nasa/mosaic},
+  keywords     = {Distributed systems, JPL, MOSAIC},
+  url          = {https://www.federico.io/pdf/Hook.Vaquero.Rossi.ea.ICAPS19.pdf},
+}
+
+@Article{RossiIglesiasEtAl2018b,
+  author    = {Rossi, Federico and Iglesias, Ramon and Alizadeh, Mahnoosh and Pavone, Marco},
+  title     = {On the interaction between Autonomous Mobility-on-Demand systems and the power network: models and coordination algorithms},
+  journal   = jrn_IEEE_TCNS,
+  year      = {2020},
+  volume   = {7},
+  number   = {1},
+  pages    = {384--397},
+  abstract  = {We study the interaction between a fleet of electric, self-driving vehicles servicing on-demand transportation requests (referred to as Autonomous Mobility-on-Demand, or AMoD, system) and the electric power network. We propose a joint linear model that captures the coupling between the two systems stemming from the vehicles' charging requirements. The model subsumes existing network flow models for AMoD systems and linear models for the power network, and it captures time-varying customer demand and power generation costs, road congestion, and power transmission and distribution constraints. We then leverage the linear model to jointly optimize the operation of both systems. We propose an algorithmic procedure to losslessly reduce the problem size by bundling customer requests, allowing it to be efficiently solved by state-of-the-art linear programming solvers. Finally, we study the implementation of a hypothetical electric-powered AMoD system in Dallas-Fort Worth, and its impact on the Texas power network. We show that coordination between the AMoD system and the power network can reduce the overall energy expenditure compared to the case where no cars are present (despite the increased demand for electricity) and yield savings of $78M/year compared to an uncoordinated scenario. Collectively, the results of this paper provide a first-of-a-kind characterization of the interaction between electric-powered AMoD systems and the electric power network, and shed additional light on the economic and societal value of AMoD.},
+  code      = {https://github.com/StanfordASL/pamod},
+  doi       = {10.1109/TCNS.2019.2923384},
+  keywords  = {AMoD},
+  owner     = {frossi2},
+  timestamp = {2018-10-17},
+  url       = {https://arxiv.org/abs/1709.04906},
+}
+
+@Article{SalazarEtAl2019,
+  author    = {Salazar, Mauro and Lanzetti, Nicolas and Rossi, Federico and Schiffer, Maximilian and Pavone, Marco},
+  title     = {Intermodal Autonomous Mobility-on-Demand},
+  journal   = jrn_IEEE_TITS,
+  year      = {2019},
+  abstract  = {In this paper we study models and coordination policies for intermodal Autonomous Mobility-on-Demand (AMoD), wherein a fleet of self-driving vehicles provides on-demand mobility jointly with public transit. Specifically, we first present a network flow model for intermodal AMoD, where we capture the coupling between AMoD and public transit and the goal is to maximize social welfare. Second, leveraging such a model, we design a pricing and tolling scheme that allows to achieve the social optimum under the assumption of a perfect market with selfish agents. Finally, we present a real-world case study for New York City. Our results show that the coordination between AMoD fleets and public transit can yield significant benefits compared to an AMoD system operating in isolation.},
+  doi       = {10.1109/TITS.2019.2950720},
+  keywords  = {AMoD},
+  owner     = {frossi2},
+  timestamp = {2018-06-15},
+  url       = {https://arxiv.org/abs/1804.11278},
+}
+
+@InProceedings{RossiVaqueroEtAl2020,
+  author   = {Rossi *, Federico and Stegun Vaquero *, Tiago and Sanchez Net, Marc and Saboia, Ma\'ira and Vander Hook, Joshua},
+  title    = {The Pluggable Distributed Resource Allocator (PDRA): a Middleware for Distributed Computing in Mobile Robotic Networks},
+  booktitle = conf_IEEE_IROS,
+  year      = {2020},
+  address   = {Las Vegas, NV},
+  month     = oct,
+  note      = {In Press},
+  abstract = {  We present the Pluggable Distributed Resource Allocator (PDRA), a middleware for distributed computing in heterogeneous mobile robotic networks. PDRA enables autonomous agents to share computational resources for computationally
+expensive tasks such as localization and path planning. It sits between an existing single-agent planner/executor and existing computational resources (e.g. ROS packages), intercepts the executor's requests and, if needed, transparently routes them to other nodes for execution. PDRA is pluggable: it can be integrated in an existing single-robot autonomy stack with minimal modifications. Task allocation decisions are performed by a mixed-integer programming algorithm, solved in a shared-world fashion, that models CPU
+resources, network bandwidth, and latency requirements, and minimizes overall energy usage or maximizes reward for completing optional tasks. Simulation results show that PDRA can reduce energy and CPU usage by over 50\% in representative multi-robot scenarios compared to a naive scheduler; runs on embedded platforms; and performs well in delay- and disruption-tolerant networks (DTNs). PDRA is available to the community under an open-source license. },
+  code     = {https://github.com/nasa/mosaic},
+  keywords = {press, JPL, Distributed systems, Distributed computing, MOSAIC},
+  url      = {http://arxiv.org/abs/2003.13813},
+}
+
+@Unpublished{EstandiaSchifferEtAl2019,
+  author   = {Estandia, Alvaro and Schiffer, Maximilian, and Rossi, Federico, and Kara, Emre C, and Rajagopal, Ram and Pavone, Marco},
+  title    = {On the Interaction between Autonomous Mobility on Demand Systems and Power Distribution Networks – An Optimal Power Flow Approach},
+   note     = {Submitted},
+   year     = {2020},
+  abstract = {In future transportation systems, the charging behavior of electric Autonomous Mobility on Demand (AMoD) fleets, i.e., fleets of self-driving cars that service on-demand trip requests, will likely challenge power distribution networks (PDNs), causing overloads or voltage drops. In this paper, we show that these challenges can be significantly attenuated if the PDNs' operational constraints and exogenous loads (e.g., from homes or businesses) are considered when operating the electric AMoD fleet. We focus on a system-level perspective, assuming full cooperation between the AMoD and the PDN operators. Through this single entity perspective, we derive an upper bound on the benefits of coordination. We present an optimization-based modeling approach to jointly control an electric AMoD fleet and a series of PDNs, and analyze the benefit of coordination under load balancing constraints. For a case study in Orange County, CA, we show that coordinating the electric AMoD fleet and the PDNs helps to reduce 99% of overloads and 50% of voltage drops which the electric AMoD fleet causes without coordination. Our results show that coordinating electric AMoD and PDNs helps to level loads and can significantly postpone the point at which upgrading the network's capacity to a larger scale becomes inevitable to preserve stability. },
+  code     = {https://github.com/StanfordASL/unbalanced-opf-toolkit},
+  keywords = {sub, AMoD},
+  url      = {https://arxiv.org/abs/1905.00200},
+}
+
+@Unpublished{BaeRossiEtAlAl2020,
+  author   = {Bae, Suyun and Rossi, Federico, and Vander Hook, Joshua, and Davidoff, Scott, and Ma, Kwan-Liu},
+  title    = {A Visual Analytics Approach to Debugging Cooperative, Autonomous Multi-Robot Systems' Worldviews},
+  note     = {Submitted},
+  year     = {2020},
+  abstract = {Autonomous multi-robot systems, where a team of robots shares information to perform tasks that are beyond an individual robot’s abilities, hold great promise for a number of applications, such as planetary exploration missions.
+Each robot in a multi-robot system autonomously schedules which robot should perform a given task and when, using its \textit{worldview}--the robot’s internal representation of its belief about both its own state, and \textit{other} robots’ states.
+A key problem for operators is that robots’ worldviews can fall out of sync (often due to weak communication links), leading to desynchronization of the robots’ scheduling decisions and inconsistent emergent behavior (e.g., tasks not performed, or performed by multiple robots).
+Operators face the time-consuming and difficult task of making sense of the robots' scheduling decisions, detecting de-synchronizations, and pinpointing the cause by comparing every robot's worldview.
+To address these challenges, we introduce MOSAIC Viewer, a visual analytics system that helps operators (i) make sense of the robots’ schedules and (ii) detect and conduct a root cause analysis of the robots' desynchronized worldviews. Over a year-long partnership with roboticists at the NASA Jet Propulsion Laboratory, we conduct a formative study to identify the necessary system design requirements and a qualitative evaluation with 12 roboticists. We find that that MOSAIC Viewer is faster- and easier-to-use than the users’ current approaches, and it allows them to stitch low-level details to formulate a high-level understanding of the robots’ schedules and detect and pinpoint the cause of the desynchronized worldviews.  },
+  keywords = {sub, JPL, Mosaic, Distributed systems, Distributed computing, visualization},
+}
+
+@Unpublished{BrownRossiEtAl20b,
+  author    = {Brown, Robin A. and Rossi, Federico and Solovey, Kiril and Tsao, Matt and Wolf, Michael T. and Pavone, Marco},
+  title    = {On local computation for optimization in multi-agent systems},
+  note     = {Submitted},
+  year     = {2020},
+  abstract = {A number of prototypical optimization problems in multi-agent systems (e.g., task allocation and network load-sharing) exhibit a highly local structure: that is, each agent’s decision variables are only directly coupled to few other agent’s variables through the objective function or the constraints. Nevertheless, existing algorithms for distributed optimization generally do not exploit the locality structure of the problem, requiring all agents to compute or exchange the full set of decision variables. In this paper, we develop a rigorous notion of "locality" that quantifies the degree to which agents can compute their portion of the global solution based solely on information in their local neighborhood. This notion provides a theoretical basis for a rather simple algorithm in which agents individually solve a truncated sub-problem of the global problem, where the size of the sub-problem used depends on the locality of the problem, and the desired accuracy. Numerical results show that the proposed theoretical bounds are remarkably tight for well-conditioned problems. },
+  keywords = {sub, JPL, Stanford, Distributed systems, Distributed computing},
+  url       = {https://www.federico.io/pdf/Brown.Rossi.ea.TCNS20.pdf},
+}
+
+@InProceedings{BrownRossiEtAl20,
+  author    = {Brown, R. A. and Rossi, F. and Solovey, K. and Wolf, M. T. and Pavone, M.},
+  title     = {Exploiting Locality and Structure for Distributed Optimization in Multi-Agent Systems},
+  booktitle = conf_IEEE_ECC,
+  year      = {2020},
+  address   = {St. Petersburg, Russia},
+  month     = may,
+  note      = {In Press},
+  abstract  = {A number of prototypical optimization problems in multi-agent systems (e.g. task allocation and network load-sharing) exhibit a highly local structure: that is, each agent’s decision variables are only directly coupled to few other agent’s variables through the objective function or the constraints. Nevertheless, existing algorithms for distributed optimization generally do not exploit the locality structure of the problem, requiring all agents to compute or exchange the full set of decision variables. In this paper, we develop a rigorous notion of “locality” that relates the structural properties of a linearly-constrained convex optimization problem (in particular, the sparsity structure of the constraint matrix and the objective function) to the amount of information that agents should exchange to compute an arbitrarily high-quality approximation to the problem from a cold-start. We leverage the notion of locality to develop a locality-aware distributed optimization algorithm, and we show that, for problems where individual agents  only  require  to  know  a  small  portion  of  the  optimal solution, the algorithm requires very limited inter-agent communication. Numerical results show that the convergence rate of our algorithm is directly explained by the locality parameter proposed, and that the proposed theoretical bounds are remarkably tight.},
+  keywords  = {press, Distributed systems},
+  url       = {https://www.federico.io/pdf/Brown.Rossi.ea.ECC20.pdf},
+}
+
+@InProceedings{Rahmani2019,
+  author    = {Amir Rahmani and Saptarshi Bandyopadhyay and Federico Rossi and Jean-Pierre de la Croix and Joshua Vander Hook and Michael T. Wolf},
+  title     = {Space Vehicle Swarm Exploration Missions: A Study of Key Enabling Technologies and Gaps},
+  booktitle = conf_IAC,
+  year      = {2019},
+  address   = {Washington D.C., U.S.A.},
+  month     = nov,
+  abstract  = {Multi-agent robot teams and spacecraft swarms will play an important role in future space missions. In this paper, we propose a comprehensive taxonomy of proposed applications of systems in space, planetary-surface, and terrestrial domains. We identify the key enabling technologies that will enable such applications and identify the technology gaps that have to be overcome. We envisage that the broader community will strive to address these technology challenges to make multi-agent and swarm based space exploration missions a reality.},
+  keywords  = {Survey, JPL},
+  url       = {https://www.federico.io/pdf/Rahmani.Bandyopadhyay.Rossi.ea.IAC19.pdf},
+}
+
+@PhdThesis{Rossi2018,
+  author   = {Federico Rossi},
+  title    = {On the Interaction between {Autonomous Mobility-on-Demand} Systems and the Built Environment: Models and Large Scale Coordination Algorithms},
+  school   = {Stanford University, Dept.\ of Aeronautics and Astronautics},
+  year     = {2018},
+  address  = {Stanford, California},
+  month    = mar,
+  abstract = {Autonomous Mobility-on-Demand systems (that is, fleets of self-driving cars offering on-demand transportation) hold promise to reshape urban transportation by offering high quality of service at lower cost compared to private vehicles. However, the impact of such systems on the infrastructure of our cities (and in particular on traffic congestion and the electric power network) is an active area of research. In particular, Autonomous Mobility-on-Demand (AMoD) systems could greatly increase traffic congestion due to additional "rebalancing" trips required to re-align the distribution of available vehicles with customer demand; furthermore, charging of large fleets of electric vehicles can induce significantly stress in the electric power network, leading to high electricity prices and potential network instability. In this thesis, we build analytical tools and algorithms to model and control the interaction between AMoD systems and our cities. We open our work by exploring the interaction between AMoD systems and urban congestion. Leveraging the theory of network flows, we devise models for AMoD systems that capture endogenous traffic congestion and are amenable to efficient optimization. These models allow us to show the key theoretical result that, under mild assumptions that are substantially verified for U.S. cities, AMoD systems do not increase congestion compared to privately-owned vehicles for a given level of customer demand if empty-traveling vehicles are properly routed. We leverage this insight to design a real-time congestion-aware routing algorithm for empty vehicles; microscopic agent-based simulations with New York City taxi data show that the algorithm significantly reduces congestion compared to a state-of-the-art congestion-agnostic rebalancing algorithm, resulting in 22% lower wait times for AMoD customers. We then devise a randomized congestion-aware routing algorithm for customer-carrying vehicles and prove rigorous analytical bounds on its performance. Preliminary results based on New York City taxi data show that the algorithm could yield a further reduction in congestion and, as a result, 5% lower service times for AMoD customers. We then turn our attention to the interaction between AMoD fleets with electric vehicles and the power network. We extend the network flow model developed in the first part of the thesis to capture the vehicles' state-of-charge and their interaction with the power network (including charging and the ability to inject power in the network in exchange for a payment, denoted as "vehicle-to-grid"). We devise an algorithmic procedure to losslessly reduce the size of the resulting model, making it amenable to efficient optimization, and test our models and optimization algorithms on a hypothetical deployment of an AMoD system in Dallas-Fort Worth, TX with the goal of maximizing social welfare. Simulation results show that coordination between the AMoD system and the power network can reduce electricity prices by over $180M/year, with savings of $120M/year for local power network customers and $35M/year for the AMoD operator. In order to realize such benefits, the transportation operator must cooperate with the power network: we prove that a pricing scheme can be used to enforce the socially optimal solution as a general equilibrium, aligning the interests of a self-interested transportation operator and self-interested power generators with the goal of maximizing social welfare. We then design privacy-preserving algorithms to compute such coordination-promoting prices in a distributed fashion. Finally, we propose a receding-horizon implementation that trades off optimality for speed and demonstrate that it can be deployed in real-time with microscopic simulations in Dallas-Fort Worth. Collectively, these results lay the foundations for congestion-aware and power-aware control of AMoD systems; in particular, the models and algorithms in this thesis provide tools that will enable transportation network operators and urban planners to foster the positive externalities of AMoD and avoid the negative ones, thus fully realizing the benefits of AMoD systems in our cities. },
+  permalink      = {https://purl.stanford.edu/fk416tj3277},
+  keywords = {AMoD},
+  url      = {https://www.federico.io/dissertation/},
+}
+
+@MastersThesis{FR:13,
+  author   = {Federico Rossi},
+  title    = {Decision making on robotic networks with hybrid performance metrics for planetary exploration applications},
+  school   = {Politecnico di Milano, Dipartimento di Scienze e Tecnologie Aerospaziali},
+  year     = {2013},
+  abstract = {This thesis is about distributed consensus on robotic networks for planetary exploration. The advantages of distributed architectures for space exploration have long been studied; furthermore, multiagent architectures are extremely advantageous on small solar system bodies, whose low gravity and uncertain dynamic environment make traditional mobility paradigms unapplicable. Relativistic delays make autonomy paramount for all probes operating beyond Earth orbit. Yet no energy-efficient procedures for autonomous consensus on robotic networks exist: current algorithms are either optimized for ground-based applications or largely inefficient. The purpose of this thesis is to design efficient algorithms to reach an agreement between cooperative stationary or slow-moving robotic agents. We explore metrics describing time performance, power consumption and robustness; we propose time-optimal and energy-optimal algorithms and show how optimality with respect to one parameter typically leads to very bad performance with respect to other metrics. We then design a novel hybrid algorithm that scales from time-optimal to message-optimal behavior, trading time performance and robustness for energy efficiency, according to an user-defined tuning parameter. Worst- case performance of the algorithm is investigated analytically; real-world performance on a simplified space exploration scenario is explored through numerical simulations with satisfactory results. Future research directions will include extension of our work to fast-moving robotic networks such as swarms of planetary hoppers, optimization with respect to legacy omnidirectional (broadcast) communication protocols and application to problems such as UAV deployment for patrolling and ATC conflict resolution.},
+  doi      = {10589/81446},
+  keywords = {Distributed systems},
+  pages    = {132},
+  url      = {https://www.federico.io/pdf/Rossi.MSc.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

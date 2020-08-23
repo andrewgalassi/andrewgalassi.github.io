@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "bio"
+date:   2020-02-09 15:08:10 -0800
+img: img/Fede_Paris_Foucault.jpg
+img_alt: "Federico in front of Foucault's pendulum at the Pantheon, Paris. Image credit: Valentina Ricchiuti"
+modalID: modalSubmarine
+category: Bio
+---
+
+I am a [Robotics Technologist][jplbio] with the [Maritime and Multi-Agent Autonomy Group (347N)][347n] in the [Robotics Section][347] of the [NASA][nasa] [Jet Propulsion Laboratory][jpl].
+
+My current research focuses on optimal control and decision-making in multi-agent robotic systems, with applications to (i) swarms of unmanned aerial vehicles and surface vessels for patrolling and exploration and (ii) coordination of fleets of self-driving cars for autonomous mobility-on-demand in urban environments.
+
+I earned a Ph.D. in [Aeronautics and Astronautics][aastanfordlink] at [Stanford University][stanfordlink] under the guidance of [Prof. Marco Pavone][marcolink], director of the [Autonomous Systems Laboratory][asllink]. 				
+I received a M.Sc. in [Space Engineering][aapolimilink] from [Politecnico di Milano][polimilink], a M.Sc. in [Aerospace Engineering][aapolitolink] from [Politecnico di Torino][politolink] and the Diploma from the [Alta Scuola Politecnica][asplink] in 2013. In 2011-2012, I spent seven months at [SUPAERO][supaerolink] as an exchange student (Admis Sur Titre). Prior to that, I received my B.Sc. in [Aerospace Engineering][aapolimilink] from [Politecnico di Milano][polimilink] in 2010.	
+					
+When not in the lab, I enjoy [astronomy](https://www.youtube.com/watch?v=z3DQV03nuew), photography and reading.
+
+
+[jplbio]: https://www-robotics.jpl.nasa.gov/people/Federico_Rossi/
+[347n]: https://www-robotics.jpl.nasa.gov/groups/MaritimeandMultiAgent/
+[347]: https://www-robotics.jpl.nasa.gov/index.cfm
+[nasa]: https://www.nasa.gov
+[jpl]: https://www.jpl.nasa.gov/
+[aastanfordlink]: https://aa.stanford.edu
+[stanfordlink]: https://www.stanford.edu
+[marcolink]: https://web.stanford.edu/~pavone
+[asllink]: http://asl.stanford.edu/
+[aapolimilink]: https://www.aero.polimi.it
+[polimilink]: https://www.polimi.it
+[aapolitolink]: http://www.dimeas.polito.it/
+[politolink]: http://www.polito.it/
+[asplink]: http://www.asp-poli.it/
+[supaerolink]: http://www.isae.fr/

@@ -1,0 +1,35 @@
+<a class="anchor" id="musings"></a>
+<section class="section-even">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1>Musings </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-left">
+      Occasionally, mentees and prospective students in Marco's lab ask me questions like "How was your Ph.D.", or "How is it like to work in aerospace as a foreign national", or "how did you get your green card". I love answering these questions: it is a great way of <a href="https://youtu.be/sTJ7AzBIJoI">fishing the past from the disposal, wiping it off, painting over the ugly parts, and recycling it for more than it’s worth</a>.
+    </div>
+  </div>
+</div>
+{% for post in site.posts %}
+  {% if post.category == "musings" %}
+    <!-- {{ post.title }} -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <h3> <a href="{{ post.url }}">{{post.title}} </a> </h3>
+        </div>
+        <div class="col-md-4">
+          <a href="{{post.url}}">
+            <img class="img-responsive" src="{{ post.img | relative_url}}" alt="{{ post.img_alt}}">
+          </a>
+        </div>
+        <div class="col-md-8">
+          {{ post.excerpt }}
+        </div>
+      </div>
+    </div>
+  {% endif %}       
+{% endfor %}
+</section>

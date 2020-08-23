@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Teaching and mentorship"
+date:   2016-11-01 14:08:10 -0800
+category: Teaching
+---
+
+I was the Teaching Assistant for Stanford’s [Optimal Control and Introduction to Dynamic Optimization](http://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=AA%20203:%20Introduction%20to%20Optimal%20Control%20and%20Dynamic%20Optimization&academicYear=20162017) class (AA 203) in 2015, 2016, and 2017.
+
+AA 203 includes a large final project: I immensely enjoyed advising students on projects including [identifying the root cause of mobility impairment in patients suffering from stroke](https://doi.org/10.1101/139857), controlling flexible surgical robots and tensegrity structures, and computing maximum-drift trajectories for Marty, Stanford’s self-driving DeLorean.
+
+I have also been very fortunate to mentor a number of brilliant high school, undergraduate, and graduate students who participated in internships with the Autonomous Systems Lab and with JPL, and in the the [Alta Scuola Politecnica](http://www.asp-poli.it/)'s alumni mentoring program.
+
+Past and current mentees include:
+
+* Quinn Wu (Gunn High School), now at UPenn 
+* Ivan Maric (UC Berkeley), now at UCSD 
+* Luke Shimanuki (Amador Valley High School), now at MIT 
+* Leonardo Franco-Munoz (Woodside High School), now at Cal Poly San Luis Obispo
+* Maggie Wang (Gunn High School), now at Harvard
+* Daniel Torres (Eastside College Preparatory School)
+* Yousef Hindy (Stanford University)
+* Tommaso Guffanti (PoliMi), now at Stanford
+* Dustin Dopsa (PoliTo)
+* Giada Risso (PoliTo), now at ETH
+* Francesca Mignacco (PoliTo), now at CEA Paris-Saclay
+* Andrea Morelli (PoliMi)
+* Sandra Bae (UC Davis), now at CU Boulder
