@@ -31,15 +31,15 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-scholar:
-  style: ieee-asl
-  # bibliography: Federico.bib
-  sort_by: year
-  order: descending
-  group_by: type
-  type_order: [article,inproceedings,techreport,thesis]
-  type_aliases: {Incollection: techreport}
-  type_names: { unpublished: Manuscripts}
-  bibliography_template: bib
-  reference_tagname: span class="entry"
-  bibliography_group_tag: 'h3'
+# scholar:
+#   style: ieee-asl
+#   # bibliography: Federico.bib
+#   sort_by: year
+#   order: descending
+#   group_by: type
+#   type_order: [article,inproceedings,techreport,thesis]
+#   type_aliases: {Incollection: techreport}
+#   type_names: { unpublished: Manuscripts}
+#   bibliography_template: bib
+#   reference_tagname: span class="entry"
+#   bibliography_group_tag: 'h3'
