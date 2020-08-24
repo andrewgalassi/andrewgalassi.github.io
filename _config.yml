@@ -19,7 +19,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Robotics Technologist at NASA JPL. Multi-robot systems for planetary exploration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.andrewgalassi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
+twitter_username: andrew_galassi
 github_username: andrewgalassi
 
 # Build settings
@@ -33,7 +33,7 @@ exclude:
 
 scholar:
   style: ieee-asl
-  bibliography: Federico.bib
+  # bibliography: Federico.bib
   sort_by: year
   order: descending
   group_by: type
